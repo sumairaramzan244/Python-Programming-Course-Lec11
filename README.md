@@ -1,70 +1,66 @@
-# Python-Programming-Course-Lec11  
-# 🐍 Python Programming Course — Lec 9 & Lec 10
-### Python Basics — Punjab Hunarmand Batch 3
+# Python-Programming-Course-Lec 11 
+# Python Basics — Punjab Hunarmand Batch 3
 
-> This repository contains my Python code from **Lecture 9 & 10** at Punjab Hunarmand Program, Batch 3.
-
----
-
-## 📚 Lecture 9 & 10 — Lists & Conditional Statements in Python
-
-In Lecture 9 and 10, I explored one of the most important data structures in Python — the **List**. A List is an ordered and changeable collection that allows duplicate members. I practiced adding, inserting, removing and managing list items using built-in methods. In the second part, I learned about **conditional statements** which allow a program to take decisions and execute different blocks of code based on different conditions.
-
----
-
-## ✅ What I Learned
-
-### 🔷 Lists
-
-| Method / Function | Description |
-|---|---|
-| `[ ]` | A List is an **ordered and changeable** collection written in square brackets |
-| Duplicates allowed | Lists allow duplicate values and can store **different data types** together |
-| `append()` | Adds a new item at the **end** of the list |
-| `insert(index, item)` | Adds a new item at a **specific index** position in the list |
-| `remove(item)` | Removes the **first occurrence** of a specific item from the list |
-| `pop(index)` | Removes the item at a given index and **returns** that removed item |
-| `clear()` | Removes **all items** from the list and makes it empty |
-| `len()` | Returns the **total number** of items currently in the list |
-
----
-
-### 🔷 Conditional Statements
-
-| Statement / Operator | Description |
-|---|---|
-| `if` | Executes a block of code only when the condition is **True** |
-| `elif` | Checks **another condition** when the previous `if` condition is False |
-| `else` | Runs when **none** of the above conditions are True |
-| `and` | Combines **two or more conditions** together in a single statement |
-| Evaluation order | Conditions are checked **top to bottom** — the first True condition runs and the rest are skipped |
-
----
-
-## ▶️ How to Run
-
-**Step 1** — Install Python from [https://www.python.org](https://www.python.org)
-
-**Step 2** — Open terminal and run:
-```bash
-python "lecture_9 and 10 lists_conditions.py"
-```
-
----
-
-## 👤 Ownership
-
-| Field | Details |
-|---|---|
-| **Author** | Sumaira Ramzan |
-| **Program** | Punjab Hunarmand — Python Programming Course, Batch 3 |
-| **City** | Punjab, Pakistan |
-| **Lecture** | 9 & 10 |
-| **Topic** | Lists & Conditional Statements in Python |
-| **Status** | 🔄 In Progress |
-
----
-
-*Punjab Hunarmand Program — Batch 3 &nbsp;|&nbsp; Python Programming Course*
+This repository contains my Python code from Lecture 11  at Punjab Hunarmand Program, Batch 3.
 
 
+# Lecture 11 — Loops & Loop Control Statements in Python
+
+In Lecture 11 , I explored one of the most essential concepts in Python — Loops. Loops allow a program to repeat a block of code multiple times without writing it again and again. I practiced for loops, while loops, and loop control statements like break. I also learned how to use the range() function with start, stop, and step parameters to control loop iterations.
+
+# What I Learned
+
+# For Loop:
+
+
+A for loop is used to iterate over a sequence (like a range of numbers or characters in a string)
+range(stop) generates numbers from 0 up to (but not including) the stop value
+range(start, stop, step) generates numbers starting from start, ending before stop, with a gap of step between each value
+A for loop can iterate over a string character by character
+Loops can be nested — a loop inside another loop
+
+
+# While Loop:
+
+
+A while loop repeats a block of code as long as its condition remains True
+It is important to update the loop variable inside the loop to avoid an infinite loop
++= operator is used to increment a variable by a specific value in each iteration
+
+
+# Loop Control Statements:
+
+
+Loop control statements are used to modify the normal behavior of loops
+break statement is used to exit the loop immediately when a certain condition is met
+Once break is executed, the remaining iterations are skipped and the loop ends
+Loop control statements give programmers fine-grained control over loop execution
+
+# Concepts Explained
+
+ConceptDescriptionfor i in range(5)Loops from 0 to 4 (5 not included)for char in nameIterates over each character in the string "Sumaira"range(3, 15, 3)Generates: 3, 6, 9, 12 (starts at 3, stops before 15, steps by 3)while num1 < 10Repeats as long as num1 is less than 10num1 += 2Increases num1 by 2 after every iterationbreakExits the loop immediately when i == 5
+
+
+# How to Run
+
+
+Install Python from https://www.python.org
+Open terminal and type:
+python lecture_11_loops.py
+
+
+# Ownership
+
+Author  : Sumaira Ramzan
+
+Program : Punjab Hunarmand, Python Programming Course — Batch 3
+
+City    : Punjab, Pakistan
+
+Program : Punjab Hunarmand — Batch 3
+
+Lecture : 11 
+
+Topic   : Loops & Loop Control Statements in Python
+
+Status  : In Progress
